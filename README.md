@@ -92,6 +92,12 @@ The possible commands:
       * publisher
       * genre
       * pages
+      
+-> The add_book function will test if the given details are valid in which
+   case a JSON object will be created and sent to teh database.
+   
+-> The delete_book function will check if the given id is valid and then
+   remove the given book from the library.
 
 ____________________________________________________________________________
 
