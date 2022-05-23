@@ -30,8 +30,7 @@ The main function opens a connection and then reads the commands in an
 infinite loop. This loop will end only if the given command is "exit",
 in which case the "my_exit" variable becomes 0.
 
-`client_functions.c
-`
+`client_functions.c`
 
 Process_command will test for each of the possible commands and call the
 respective functions. If the command is wrong the "This is not a valid command"
@@ -54,6 +53,44 @@ The test_input function is used when adding a new book. If any information
 is wrong, teh user will be asked to enter a valid one. For the number
 of pages, this function only checks if they are positive, but the testing
 for the correct format (int) is done in teh main function (addbook_cmd).
+
+`commands.c`
+
+Here are the main functions of the project.
+The possible commands:
+   * login
+   * logout
+   * register
+   * enter_library
+   * get_books
+   * get_book
+   * add_book
+   * delete_book
+
+-> The login function checks if the given username is in the database,
+   keeps only the necessary characters of the cookie and sends back a
+   message if the login was successful.
+ 
+-> The logout function disconnects a user
+
+-> The register function checks if the username is taken and 
+   if not, it adds the user to the database
+   
+-> The enter function checks if the user is online and extracts
+   the token from the initial format. The "bookstore" variable
+   will be set to 1 since other commands are only possible if the
+   user has already entered the library.
+   
+-> The get_books command will print all the books in the library
+   as a pair of id and title, separated by a new line.
+   
+-> The get_book command will check if the given id is valid,
+   create the url and print the book details
+      * title
+      * author
+      * publisher
+      * genre
+      * pages
 
 ____________________________________________________________________________
 
