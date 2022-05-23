@@ -86,6 +86,7 @@ The possible commands:
    
 -> The get_book command will check if the given id is valid,
    create the url and print the book details
+   
       * title
       * author
       * publisher
