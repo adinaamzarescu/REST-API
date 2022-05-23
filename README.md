@@ -30,7 +30,8 @@ The main function opens a connection and then reads the commands in an
 infinite loop. This loop will end only if the given command is "exit",
 in which case the "my_exit" variable becomes 0.
 
-* client_functions.c
+`client_functions.c
+`
 
 Process_command will test for each of the possible commands and call the
 respective functions. If the command is wrong the "This is not a valid command"
