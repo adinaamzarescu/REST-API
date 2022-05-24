@@ -1,3 +1,4 @@
+// Copyright 2022 Amzarescu Adina 321CA
 #include "requests.h"
 
 char *compute_get_request(char *host, char *url, char *query_params,
