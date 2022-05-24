@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     int bookstore = 0;
 
     while (my_exit) {
+        printf("Please enter command = ");
         scanf("%s", cmd);
         // my_exit will become 0 if cmd = "exit"
         my_exit = process_command(sockfd, cmd, tk, &online, &bookstore);
