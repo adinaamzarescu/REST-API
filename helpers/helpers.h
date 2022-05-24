@@ -1,3 +1,4 @@
+// Copyright 2022 Amzarescu Adina 321CA
 #ifndef _HELPERS_
 #define _HELPERS_
 
