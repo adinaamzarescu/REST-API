@@ -1,3 +1,4 @@
+// Copyright 2022 Amzarescu Adina 321CA
 #include "client.h"
 
 int login_cmd(int sockfd, char *user[1], int *online, int *bookstore, char **cookies, char *cookie) {
