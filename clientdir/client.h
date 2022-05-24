@@ -1,3 +1,4 @@
+// Copyright 2022 Amzarescu Adina 321CA
 #ifndef _CLIENT_
 #define _CLIENT_
 
