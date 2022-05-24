@@ -1,3 +1,4 @@
+// Copyright 2022 Amzarescu Adina 321CA
 #include "helpers.h"
 
 #define HEADER_TERMINATOR "\r\n\r\n"
