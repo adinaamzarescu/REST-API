@@ -1,3 +1,4 @@
+// Copyright 2022 Amzarescu Adina 321CA
 #include "buffer.h"
 
 buffer buffer_init(void)
