@@ -53,21 +53,29 @@ The get_book and get_user functions are used to parse the given information
 in JSON format.
 
 The test_input function is used when adding a new book. If any information
-is wrong, teh user will be asked to enter a valid one. For the number
+is wrong, the user will be asked to enter a valid one. For the number
 of pages, this function only checks if they are positive, but the testing
-for the correct format (int) is done in teh main function (addbook_cmd).
+for the correct format (int) is done in the main function (addbook_cmd).
 
 `commands.c`
 
 Here are the main functions of the project.
 The possible commands:
+
    * login
+   
    * logout
+   
    * register
+   
    * enter_library
+   
    * get_books
+   
    * get_book
+   
    * add_book
+   
    * delete_book
 
 -> The login function checks if the given username is in the database,
@@ -97,7 +105,7 @@ The possible commands:
       * pages
       
 -> The add_book function will test if the given details are valid in which
-   case a JSON object will be created and sent to teh database.
+   case a JSON object will be created and sent to the database.
    
 -> The delete_book function will check if the given id is valid and then
    remove the given book from the library.
