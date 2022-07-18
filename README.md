@@ -8,8 +8,11 @@ This is the third University Project for the Communication Protocols course.
 The idea of this project is a client that interacts with a REST API.
 
 Objectives:
+
 • understanding the mechanisms of communication over HTTP
+
 • Interaction with a REST API
+
 • Understanding the concepts often used in the web such as JSON, session, JWT
 
 ____________________________________________________________________________
