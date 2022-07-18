@@ -102,8 +102,6 @@ The possible commands:
 ____________________________________________________________________________
 
 Mentions:
-  * I have used the 10th laboratory (HTTP) as skel for this project.
-      * I have changed the requests.c, requests.h and client.c files
   * I have added stdout messages in order to make the project more
     aesthetically.
       * Examples: "This is not a valid command", "Please enter a command:"
